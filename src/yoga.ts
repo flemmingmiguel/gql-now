@@ -1,6 +1,6 @@
-import { createServer } from "@graphql-yoga/common";
-export { makeExecutableSchema } from "@graphql-tools/schema";
-import type { GraphQLSchema } from "graphql";
+import { createServer } from "https://cdn.skypack.dev/@graphql-yoga/common?dts";
+export { makeExecutableSchema } from "https://cdn.skypack.dev/@graphql-tools/schema?dts";
+import type { GraphQLSchema } from "https://cdn.skypack.dev/graphql?dts";
 
 interface serverOpts {
   schema: GraphQLSchema;
